@@ -23,8 +23,8 @@
     background-size: cover;
 }
 .content {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 .titles{
     display: inline-block;
@@ -34,6 +34,7 @@
     border: 5px;
     border-radius: 3px;
     background-color: pink;
+    margin: 5rem;
 }
 .sub-content{
     font-size: 20px;
