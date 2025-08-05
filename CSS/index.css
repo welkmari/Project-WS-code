@@ -19,16 +19,15 @@
     top: 0;
     left: 0;
     background-position: center center;
-    background-image: url('/img/mountain.jpg');
+    background-image: url('/img/mountain.jpeg');
     background-size: cover;
-    filter: blur(2px);
 }
 .content {
   position: relative;
   z-index: 1;
 }
 .titles{
-    display: flex;
+    display: inline-block;
     justify-content: center;
     text-align: center;
     padding: 3px;
@@ -49,7 +48,9 @@
     top: 0;
     left: 0;
     background-position: bottom;
-    background-image: url('/img/mountain.jpg');
+    background-image: url('/img/mountain.jpeg');
     background-size: cover;
-    filter: blur(2px);
+}
+.foo.hover {
+    background-color: gold;
 }
